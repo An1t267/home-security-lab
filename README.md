@@ -57,4 +57,4 @@ Result: Sysmon was able to record the full attack, including the command line us
 
 ## What I Learned
 
-_(your section goes here)_
+_(...)_
