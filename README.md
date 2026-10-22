@@ -72,4 +72,10 @@ It was used by the user who launched it and was launched with high privileges.
 
 ![Sysmon detecting the user creation](screenshots/08-sysmon-detection.png)
 
-The detection of the user creation by Sysmon.Sysmon detected the user creation.
+Summary
+
+| Attack              | ATT&CK    | Detected? | By What                       |
+|---------------------|-----------|-----------|-------------------------------|
+| Network scan        | T1046     | No        | (host logs blind to recon)    |
+| SSH brute force     | T1110     | Yes       | auth.log + auto-throttle      |
+| Backdoor admin user | T1136.001 | Yes       | Sysmon process + command line |
